@@ -24,7 +24,8 @@ This will be explained in class in detail. But in case you miss it:
 2. If no error, the PyCharm console will start the localhost server and will provide you a url in console. 
 3. Click or copy and paste that URL into your prefered browser, and it will load the hone page of this assignment
 4. I created for you a simple textbox that emulates a browser. 
-5. In order to access the proxy-settings enter the following url in the textbox provided in the home page: http://127.0.0.1:5000/proxy-settings
+5. In order to access the proxy-settings enter the following url in the textbox provided in the home page: http://127.0.0.1:5000/proxy-settings. 
+Note that your port may be different depending on the PyCharm configuration. 
 6. If no error, you'll see a basic template for the proxy settings page
 
 ## Project content
