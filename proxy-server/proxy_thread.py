@@ -40,7 +40,7 @@ class ProxyThread(object):
         """
         return 0
 
-    def mask_ip_adress(self):
+    def _mask_ip_adress(self):
         """
         When private mode, mask ip address to browse in private
         This is easy if you think in terms of client-server sockets
@@ -72,7 +72,7 @@ class ProxyThread(object):
 
 
 
-    def send(self, data):
+    def _send(self, data):
         """
         Serialialize data 
         send with the send() method of self.client
@@ -80,7 +80,7 @@ class ProxyThread(object):
         :return: VOID
         """
 
-    def receive(self):
+    def _receive(self):
         """
         deserialize the data 
         :return: the deserialized data
