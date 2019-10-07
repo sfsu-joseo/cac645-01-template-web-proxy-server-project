@@ -10,22 +10,15 @@
         <link rel="stylesheet" href="/static/home.css">
     </head>
     <body>
-        <h1><center>Organization Y </center></h1>
-        <form class="example" method="post" action=""
+        <h1><center>Organization Y Home Page</center></h1>
+        <form class="example" method="post" action="{{ url_for('get_user_input') }}"
          style="margin:auto;max-width:600px">
             <input type="text" placeholder="http://yoursite.com" name="url">
             <button value="submit" type="submit"><i class="fa fa-search">Go</i>
-            </button> <br>
-            <input type="checkbox" name="private-modde" value="private-mode"> Private mode <br>
+            </button>
+            <br />
+            <br />
+            <input type="checkbox" name="private" value="true"> Private mode <br>
         </form>
-        <p></p>
-        <center>
-        {% for item in data %}
-            <tr>
-                <td> {{item[0]}} by {{item[1]}}</td>
-                </br>
-            </tr>
-        {% endfor %}
-        </center>
     </body>
 </html>
