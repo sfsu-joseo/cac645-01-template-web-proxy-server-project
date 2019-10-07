@@ -31,5 +31,6 @@ This will be explained in class in detail. But in case you miss it:
 This project has everything you need to create a good proxy server with cache. I provided signatured methods for all the
 most imoortant functionalities including algorithmic details for some of them, Please, take your time to explore all 
 the parts of this template project. Some methods are already implemented, but they still depend on other methods that are not yet imolemented.
-Also note that methods starting with underscore are private methods.  
+Also note that methods starting with underscore are private methods. Also note that I set all the methods to return 0. You need
+to remove that return as needed when you implement them. Some methods are also VOID ones
 
