@@ -29,7 +29,8 @@ Note that your port may be different depending on the PyCharm configuration.
 6. If no error, you'll see a basic template for the proxy settings page
 
 ## Project content
-This project has everything you need to create a good proxy server with cache. I provided signatured methods for all the
+First of all, you can change the server and client files by your own ones from assignment #1 as long as they are implemented correctly.
+Secondly, This project has everything you need to create a good proxy server with cache. I provided signatured methods for all the
 most imoortant functionalities including algorithmic details for some of them, Please, take your time to explore all 
 the parts of this template project. Some methods are already implemented, but they still depend on other methods that are not yet imolemented.
 Also note that methods starting with underscore are private methods. Also note that I set all the methods to return 0. You need
